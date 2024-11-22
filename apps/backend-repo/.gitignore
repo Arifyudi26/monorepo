@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+.pnpm/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+.out/
+.next/
+
+# Runtime data
+*.pid
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.DS_Store
+Thumbs.db
+
+.npmrc
+.yarnrc
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+.nyc_output/
+coverage/
+*.lcov
+
+*.tgz
+.dump*
+
+.tmp/
+.cache/
