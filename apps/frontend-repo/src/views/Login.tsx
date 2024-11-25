@@ -14,17 +14,19 @@ import TextField from '@mui/material/TextField'
 import IconButton from '@mui/material/IconButton'
 import InputAdornment from '@mui/material/InputAdornment'
 import Checkbox from '@mui/material/Checkbox'
-import Button from '@mui/material/Button'
+// import Button from '@mui/material/Button'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Divider from '@mui/material/Divider'
 
 import { useDispatch, useSelector } from 'react-redux'
 
+import Logo from '@monorepo/shared/components/layout/shared/Logo'
+import Illustrations from '@monorepo/shared/components/Illustrations'
+
+import { useImageVariant } from '@core/hooks/useImageVariant'
+
 import type { Mode } from '@core/types'
 
-import Logo from '@components/layout/shared/Logo'
-import Illustrations from '@components/Illustrations'
-import { useImageVariant } from '@core/hooks/useImageVariant'
 import { login } from '@store/slices/authSlice'
 import type { RootState } from '@store/store'
 
@@ -95,8 +97,11 @@ const Login = ({ mode }: { mode: Mode }) => {
               />
               <div className='flex justify-between items-center gap-x-3 gap-y-1 flex-wrap'>
                 <FormControlLabel control={<Checkbox />} label='Remember me' />
-                <Typography className='text-end' color='primary' component={Link} href='/forgot-password'>
-                  Forgot password?
+
+                <Typography className='text-end' color='primary'>
+                  <Link href='/#' passHref>
+                    Forgot password?
+                  </Link>
                 </Typography>
               </div>
               <Button fullWidth variant='contained' type='submit' disabled={loading}>
@@ -104,8 +109,10 @@ const Login = ({ mode }: { mode: Mode }) => {
               </Button>
               <div className='flex justify-center items-center flex-wrap gap-2'>
                 <Typography>New on our platform?</Typography>
-                <Typography component={Link} href='/register' color='primary'>
-                  Create an account
+                <Typography color='primary'>
+                  <Link href='/register' passHref>
+                    Create an account
+                  </Link>
                 </Typography>
               </div>
               <Divider className='gap-3'>or</Divider>

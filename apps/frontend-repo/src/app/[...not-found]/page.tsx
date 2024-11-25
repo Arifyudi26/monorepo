@@ -1,13 +1,11 @@
-// Component Imports
-import Providers from '@components/Providers'
+import { Providers } from '@monorepo/shared'
+
 import BlankLayout from '@layouts/BlankLayout'
 import NotFound from '@views/NotFound'
 
-// Util Imports
 import { getServerMode } from '@core/utils/serverHelpers'
 
 const NotFoundPage = () => {
-  // Vars
   const direction = 'ltr'
   const mode = getServerMode()
 

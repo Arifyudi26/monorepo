@@ -1,4 +1,4 @@
-import instance from '../../services/AxiosGlobal'
+import instance from '@/services/AxiosGlobal'
 
 const login = (data: { email: string; password: string }) => {
   return instance.post('sign-in', data)

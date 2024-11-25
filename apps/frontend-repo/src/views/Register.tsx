@@ -4,6 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
+import Logo from '@monorepo/shared/components/layout/shared/Logo'
+import Illustrations from '@monorepo/shared/components/Illustrations'
+
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
@@ -18,8 +21,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import { register } from '@store/slices/authSlice'
 import type { Mode } from '@core/types'
-import Illustrations from '@components/Illustrations'
-import Logo from '@components/layout/shared/Logo'
+
 import { useImageVariant } from '@core/hooks/useImageVariant'
 import type { AppDispatch, RootState } from '@store/store'
 

@@ -1,4 +1,4 @@
-import instance from '../../services/AxiosGlobal'
+import instance from '@/services/AxiosGlobal'
 
 const getAllUser = () => {
   return instance.get('fetch-all-user')

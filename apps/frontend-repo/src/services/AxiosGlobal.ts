@@ -18,17 +18,5 @@ instance.interceptors.request.use(
   error => Promise.reject(error)
 )
 
-// instance.interceptors.response.use(
-//   response => response,
-//   error => {
-//     if (error.response?.status === 401) {
-//       localStorage.removeItem('token')
-
-//       window.location.href = 'http://localhost:3000/login'
-//     }
-
-//     return Promise.reject(error)
-//   }
-// )
 
 export default instance

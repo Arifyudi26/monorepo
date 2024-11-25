@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["apps/frontend-repo/src/*"],
+      "@store/*": ["apps/frontend-repo/store/*"],
+      "@views/*": ["apps/frontend-repo/src/views/*"],
+      "@configs/*": ["apps/frontend-repo/src/configs/*"],
+      "@core/*": ["packages/shared/@core/*"],
+      "@menu/*": ["packages/shared/@menu/*"],
+      "@layouts/*": ["packages/shared/@layouts/*"],
+      "@assets/*": ["packages/shared/assets/*"],
+      "@monorepo/shared/*": ["packages/shared/*"]
+      // "@components/*": ["apps/frontend-repo/src/components/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["apps/**/*", "packages/**/*"]
+}

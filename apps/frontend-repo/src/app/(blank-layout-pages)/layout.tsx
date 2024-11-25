@@ -1,12 +1,9 @@
-// Type Imports
-import type { ChildrenType } from '@core/types'
+import { Providers } from '@monorepo/shared/'
 
-// Component Imports
-import Providers from '@components/Providers'
+import type { ChildrenType } from '@core/types'
 import BlankLayout from '@layouts/BlankLayout'
 
 const Layout = ({ children }: ChildrenType) => {
-  // Vars
   const direction = 'ltr'
 
   return (
