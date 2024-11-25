@@ -1,12 +1,8 @@
-import type { ChildrenType } from '@core/types'
+import { Navigation, Navbar, VerticalFooter, Providers } from '@repo/ui'
 
-import LayoutWrapper from '@layouts/LayoutWrapper'
-import VerticalLayout from '@layouts/VerticalLayout'
-
-import Providers from '@components/Providers'
-import Navigation from '@components/layout/vertical/Navigation'
-import Navbar from '@components/layout/vertical/Navbar'
-import VerticalFooter from '@components/layout/vertical/Footer'
+import type { ChildrenType } from '@repo/ui'
+import LayoutWrapper from '@repo/ui/src/@layouts/LayoutWrapper'
+import VerticalLayout from '@repo/ui/src/@layouts/VerticalLayout'
 
 const Layout = async ({ children }: ChildrenType) => {
   const direction = 'ltr'

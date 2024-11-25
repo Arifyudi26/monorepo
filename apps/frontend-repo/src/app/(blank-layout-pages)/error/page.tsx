@@ -1,11 +1,8 @@
-// Component Imports
+import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
+
 import NotFound from '@views/NotFound'
 
-// Server Action Imports
-import { getServerMode } from '@core/utils/serverHelpers'
-
 const Error = () => {
-  // Vars
   const mode = getServerMode()
 
   return <NotFound mode={mode} />

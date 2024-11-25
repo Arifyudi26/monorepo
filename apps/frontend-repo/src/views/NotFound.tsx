@@ -2,12 +2,12 @@
 
 import Link from 'next/link'
 
-import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
+import Illustrations from '@repo/ui/src/components/Illustrations'
 
-import type { Mode } from '@core/types'
-import Illustrations from '@components/Illustrations'
-import { useImageVariant } from '@core/hooks/useImageVariant'
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
+import type { Mode } from '@repo/ui'
 
 const NotFound = ({ mode }: { mode: Mode }) => {
   const darkImg = '/images/pages/misc-mask-dark.png'

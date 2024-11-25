@@ -20,10 +20,12 @@ import FormControl from '@mui/material/FormControl'
 import { useSelector, useDispatch } from 'react-redux'
 import { useFormik } from 'formik'
 
+import Form from '@repo/ui/src/components/Form'
+
 import { fetchUserDetail, updateUserDetail } from '@store/slices/userSlice'
 
 import type { RootState, AppDispatch } from '@store/store'
-import Form from '@components/Form'
+
 
 const initialValues = {
   email: '',

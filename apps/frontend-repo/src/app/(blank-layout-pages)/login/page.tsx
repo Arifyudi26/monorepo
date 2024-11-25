@@ -1,6 +1,6 @@
-import Login from '@views/Login'
+import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
 
-import { getServerMode } from '@core/utils/serverHelpers'
+import Login from '@views/Login'
 
 const LoginPage = () => {
   const mode = getServerMode()

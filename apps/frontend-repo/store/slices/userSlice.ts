@@ -2,7 +2,7 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 import { createSlice } from '@reduxjs/toolkit'
 
 import type { AppDispatch } from '@store/store'
-import UserAPIs from '@/views/services/user'
+import instance from '@/services/AxiosGlobal'
 
 interface User {
   id: string
@@ -77,7 +77,7 @@ export const fetchAllUsers = () => async (dispatch: AppDispatch) => {
   dispatch(fetchUsersRequest())
 
   try {
-    const response = await UserAPIs.getAllUser()
+    const response = await instance.get('fetch-all-user')
     const users = response.data.data
 
     dispatch(fetchUsersSuccess(users))
@@ -92,7 +92,7 @@ export const fetchUserDetail = (id: string) => async (dispatch: AppDispatch) => 
   dispatch(fetchUserDetailRequest())
 
   try {
-    const response = await UserAPIs.getUserDetail(id)
+    const response = await instance.get(`fetch-user-data/${id}`)
     const userDetail = response.data
 
     dispatch(fetchUserDetailSuccess(userDetail))
@@ -109,7 +109,7 @@ export const updateUserDetail =
     dispatch(fetchUserDetailRequest())
 
     try {
-      const response = await UserAPIs.updateUserDetail(data)
+      const response = await instance.put('update-user-data', data)
       const updatedUser = response.data
 
       dispatch(fetchUserDetailSuccess(updatedUser))

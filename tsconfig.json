@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["apps/frontend-repo/src/*"],
+      "@store/*": ["apps/frontend-repo/store/*"],
+      "@views/*": ["apps/frontend-repo/src/views/*"],
+      "@configs/*": ["apps/frontend-repo/src/configs/*"],
+      "@assets/*": ["apps/frontend-repo/src/assets/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["apps/**/*", "packages/**/*"]
+}

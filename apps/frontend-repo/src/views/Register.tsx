@@ -4,6 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
+import Logo from '@repo/ui/src/components/layout/shared/Logo'
+import Illustrations from '@repo/ui/src/components/Illustrations'
+
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
@@ -16,11 +19,11 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import Divider from '@mui/material/Divider'
 import { useDispatch, useSelector } from 'react-redux'
 
+import type { Mode } from '@repo/ui/src/@core/types'
+
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
+
 import { register } from '@store/slices/authSlice'
-import type { Mode } from '@core/types'
-import Illustrations from '@components/Illustrations'
-import Logo from '@components/layout/shared/Logo'
-import { useImageVariant } from '@core/hooks/useImageVariant'
 import type { AppDispatch, RootState } from '@store/store'
 
 const Register = ({ mode }: { mode: Mode }) => {
@@ -111,8 +114,10 @@ const Register = ({ mode }: { mode: Mode }) => {
               </Button>
               <div className='flex justify-center items-center flex-wrap gap-2'>
                 <Typography>Already have an account?</Typography>
-                <Typography component={Link} href='/login' color='primary'>
-                  Sign in instead
+                <Typography color='primary'>
+                  <Link href='/login' passHref>
+                    Sign in instead
+                  </Link>
                 </Typography>
               </div>
               <Divider className='gap-3'>Or</Divider>

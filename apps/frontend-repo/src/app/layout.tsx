@@ -1,9 +1,9 @@
 'use client'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
-
 import 'react-perfect-scrollbar/dist/css/styles.css'
-import type { ChildrenType } from '@core/types'
+import type { ChildrenType } from '@repo/ui'
+
 import '@/app/globals.css'
 import '@assets/iconify-icons/generated-icons.css'
 import { store, persistor } from '@store/store'

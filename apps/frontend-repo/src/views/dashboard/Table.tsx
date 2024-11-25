@@ -4,8 +4,8 @@ import Card from '@mui/material/Card'
 import CircularProgress from '@mui/material/CircularProgress'
 import Typography from '@mui/material/Typography'
 
-import tableStyles from '@core/styles/table.module.css'
-import type { TableProps } from '@/@core/types'
+import tableStyles from '@repo/ui/src/@core/styles/table.module.css'
+import type { TableProps } from '@repo/ui'
 
 const Table = <T,>({ data, columns, loading, error, emptyText = 'No data available' }: TableProps<T>) => {
   if (loading) {
