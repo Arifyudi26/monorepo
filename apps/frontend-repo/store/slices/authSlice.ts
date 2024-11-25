@@ -2,7 +2,7 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 import { createSlice } from '@reduxjs/toolkit'
 import { setCookie, destroyCookie } from 'nookies'
 
-import AuthAPIs from '@/views/services/auth'
+import instance from '@/services/AxiosGlobal'
 
 interface User {
   displayName: string
@@ -68,7 +68,7 @@ export const login = (email: string, password: string) => async (dispatch: any) 
   dispatch(loginRequest())
 
   try {
-    const response = await AuthAPIs.login({ email, password })
+    const response = await instance.post('sign-in', { email, password })
 
     const { user, token } = response.data
 
@@ -90,7 +90,7 @@ export const register = (email: string, password: string, displayName: string) =
   dispatch(registerRequest())
 
   try {
-    const response = await AuthAPIs.register({ email, password, displayName })
+    const response = await instance.post('sign-up', { email, password, displayName })
 
     const { user } = response.data
 
