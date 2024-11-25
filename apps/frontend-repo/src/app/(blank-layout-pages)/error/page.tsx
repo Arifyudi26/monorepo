@@ -1,4 +1,4 @@
-import { getServerMode } from '@core/utils/serverHelpers'
+import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
 
 import NotFound from '@views/NotFound'
 

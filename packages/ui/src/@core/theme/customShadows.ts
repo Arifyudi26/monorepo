@@ -1,6 +1,6 @@
 import type { Theme } from '@mui/material/styles'
 
-import type { SystemMode } from '@core/types'
+import type { SystemMode } from '@repo/ui'
 
 const customShadows = (mode: SystemMode): Theme['customShadows'] => {
   return {

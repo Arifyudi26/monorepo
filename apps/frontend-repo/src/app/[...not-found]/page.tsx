@@ -1,9 +1,10 @@
 import { Providers } from '@repo/ui'
 
-import BlankLayout from '@layouts/BlankLayout'
-import NotFound from '@views/NotFound'
+import BlankLayout from '@repo/ui/src/@layouts/BlankLayout'
 
-import { getServerMode } from '@core/utils/serverHelpers'
+import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
+
+import NotFound from '@views/NotFound'
 
 const NotFoundPage = () => {
   const direction = 'ltr'

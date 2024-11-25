@@ -1,6 +1,6 @@
 import type { Theme } from '@mui/material/styles'
 
-import type { Skin } from '@core/types'
+import type { Skin } from '@repo/ui'
 
 const popover = (skin: Skin): Theme['components'] => ({
   MuiPopover: {

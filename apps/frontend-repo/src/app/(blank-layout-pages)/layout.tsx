@@ -1,7 +1,7 @@
 import { Providers } from '@repo/ui/'
 
-import type { ChildrenType } from '@core/types'
-import BlankLayout from '@layouts/BlankLayout'
+import type { ChildrenType } from '@repo/ui'
+import BlankLayout from '@repo/ui/src/@layouts/BlankLayout'
 
 const Layout = ({ children }: ChildrenType) => {
   const direction = 'ltr'

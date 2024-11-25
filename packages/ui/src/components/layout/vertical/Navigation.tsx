@@ -5,11 +5,11 @@ import { useRef } from 'react'
 import Link from 'next/link'
 
 import { styled, useTheme } from '@mui/material/styles'
-import VerticalNav, { NavHeader } from '@menu/vertical-menu'
+import VerticalNav, { NavHeader } from '@repo/ui/src/@menu/vertical-menu'
 import VerticalMenu from './VerticalMenu'
 import Logo from '../../../components/layout/shared/Logo'
-import useVerticalNav from '@menu/hooks/useVerticalNav'
-import navigationCustomStyles from '@core/styles/vertical/navigationCustomStyles'
+import useVerticalNav from '@repo/ui/src/@menu/hooks/useVerticalNav'
+import navigationCustomStyles from '@repo/ui/src/@core/styles/vertical/navigationCustomStyles'
 
 const StyledBoxForShadow = styled('div')(({ theme }) => ({
   top: 60,

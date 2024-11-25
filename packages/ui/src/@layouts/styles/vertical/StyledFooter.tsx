@@ -3,7 +3,7 @@ import type { CSSObject } from '@emotion/styled'
 
 import themeConfig from '@configs/themeConfig'
 
-import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
+import { verticalLayoutClasses } from '@repo/ui/src/@layouts/utils/layoutClasses'
 
 type StyledFooterProps = {
   overrideStyles?: CSSObject

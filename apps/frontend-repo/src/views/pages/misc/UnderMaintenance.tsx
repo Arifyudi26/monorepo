@@ -5,11 +5,11 @@ import Link from 'next/link'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 
-import Illustrations from '@repo/ui/components/Illustrations'
+import Illustrations from '@repo/ui/src/components/Illustrations'
 
-import type { Mode } from '@core/types'
+import type { Mode } from '@repo/ui'
 
-import { useImageVariant } from '@core/hooks/useImageVariant'
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
 
 const UnderMaintenance = ({ mode }: { mode: Mode }) => {
   const darkImg = '/images/pages/misc-mask-dark.png'

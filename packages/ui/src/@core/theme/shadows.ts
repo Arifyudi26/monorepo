@@ -1,6 +1,6 @@
 import type { Theme } from '@mui/material/styles'
 
-import type { SystemMode } from '@core/types'
+import type { SystemMode } from '@repo/ui'
 
 const shadows = (mode: SystemMode): Theme['shadows'] => {
   const color = `var(--mui-mainColorChannels-${mode}Shadow)`

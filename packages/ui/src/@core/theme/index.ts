@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 
 import type { Theme } from '@mui/material/styles'
 
-import type { SystemMode } from '@core/types'
+import type { SystemMode } from '@repo/ui/src/@core/types'
 
 import overrides from './overrides'
 import colorSchemes from './colorSchemes'

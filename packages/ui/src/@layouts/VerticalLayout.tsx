@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 import classnames from 'classnames'
 
-import type { ChildrenType } from '@core/types'
+import type { ChildrenType } from '@repo/ui'
 
 import LayoutContent from './components/vertical/LayoutContent'
 

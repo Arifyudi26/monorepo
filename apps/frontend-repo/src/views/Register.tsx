@@ -19,9 +19,9 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import Divider from '@mui/material/Divider'
 import { useDispatch, useSelector } from 'react-redux'
 
-import type { Mode } from '@core/types'
+import type { Mode } from '@repo/ui/src/@core/types'
 
-import { useImageVariant } from '@core/hooks/useImageVariant'
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
 
 import { register } from '@store/slices/authSlice'
 import type { AppDispatch, RootState } from '@store/store'

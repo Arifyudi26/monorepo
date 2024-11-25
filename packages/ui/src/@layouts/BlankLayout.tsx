@@ -2,7 +2,7 @@
 
 import classnames from 'classnames'
 
-import type { ChildrenType } from '@core/types'
+import type { ChildrenType } from '@repo/ui'
 
 import { blankLayoutClasses } from './utils/layoutClasses'
 

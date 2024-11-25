@@ -14,12 +14,12 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter'
 import CssBaseline from '@mui/material/CssBaseline'
 import type {} from '@mui/material/themeCssVarsAugmentation'
 import type {} from '@mui/lab/themeAugmentation'
-import type { ChildrenType, Direction } from '@core/types'
+import type { ChildrenType, Direction } from '@repo/ui'
 import ModeChanger from './ModeChanger'
 import themeConfig from '@configs/themeConfig'
 import primaryColorConfig from '@configs/primaryColorConfig'
-import { useSettings } from '@core/hooks/useSettings'
-import defaultCoreTheme from '@core/theme'
+import { useSettings } from '@repo/ui/src/@core/hooks/useSettings'
+import defaultCoreTheme from '@repo/ui/src/@core/theme'
 
 type Props = ChildrenType & {
   direction: Direction

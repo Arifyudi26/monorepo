@@ -6,7 +6,7 @@ import MuiAvatar from '@mui/material/Avatar'
 import { lighten, styled } from '@mui/material/styles'
 import type { AvatarProps } from '@mui/material/Avatar'
 
-import type { ThemeColor } from '@core/types'
+import type { ThemeColor } from '@repo/ui'
 
 export type CustomAvatarProps = AvatarProps & {
   color?: ThemeColor

@@ -5,8 +5,8 @@ import type { ReactNode } from 'react'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { styled, useTheme } from '@mui/material/styles'
 
-import type { Mode } from '@core/types'
-import { useImageVariant } from '@core/hooks/useImageVariant'
+import type { Mode } from '@repo/ui'
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
 
 type ImageObj = {
   src: string

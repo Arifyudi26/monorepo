@@ -5,7 +5,7 @@ import NavToggle from './NavToggle'
 
 import { ModeDropdown, UserDropdown } from '@repo/ui';
 
-import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
+import { verticalLayoutClasses } from '@repo/ui/src/@layouts/utils/layoutClasses'
 
 const NavbarContent = () => {
   return (

@@ -23,9 +23,9 @@ import { useDispatch, useSelector } from 'react-redux'
 import Logo from '@repo/ui/src/components/layout/shared/Logo'
 import Illustrations from '@repo/ui/src/components/Illustrations'
 
-import { useImageVariant } from '@core/hooks/useImageVariant'
+import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
 
-import type { Mode } from '@core/types'
+import type { Mode } from '@repo/ui'
 
 import { login } from '@store/slices/authSlice'
 import type { RootState } from '@store/store'

@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 
 import { useColorScheme } from '@mui/material'
 
-import type { Mode } from '@core/types'
+import type { Mode } from '@repo/ui'
 
 export const useImageVariant = (mode: Mode, imgLight: string, imgDark: string): string => {
   const { mode: muiMode } = useColorScheme()

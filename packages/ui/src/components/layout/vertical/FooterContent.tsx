@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import classnames from 'classnames'
 
-import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
+import { verticalLayoutClasses } from '@repo/ui/src/@layouts/utils/layoutClasses'
 
 const FooterContent = () => {
   return (

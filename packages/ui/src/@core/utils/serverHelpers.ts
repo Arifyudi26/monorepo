@@ -2,8 +2,8 @@ import 'server-only'
 
 import { cookies } from 'next/headers'
 
-import type { Settings } from '@core/contexts/settingsContext'
-import type { SystemMode } from '@core/types'
+import type { Settings } from '@repo/ui/src/@core/contexts/settingsContext'
+import type { SystemMode } from '@repo/ui/src/@core/types'
 
 import themeConfig from '@configs/themeConfig'
 

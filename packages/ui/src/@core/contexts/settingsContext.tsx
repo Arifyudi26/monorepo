@@ -4,11 +4,11 @@
 import type { ReactNode } from 'react'
 import { createContext, useMemo, useState } from 'react'
 
-import type { Mode } from '@core/types'
+import type { Mode } from '@repo/ui'
 
 import themeConfig from '@configs/themeConfig'
 
-import { useObjectCookie } from '@core/hooks/useObjectCookie'
+import { useObjectCookie } from '@repo/ui/src/@core/hooks/useObjectCookie'
 
 export type Settings = {
   mode?: Mode

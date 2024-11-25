@@ -1,6 +1,6 @@
 import type { Theme } from '@mui/material/styles'
 
-import type { Skin } from '@core/types'
+import type { Skin } from '@repo/ui'
 
 const menu = (skin: Skin): Theme['components'] => ({
   MuiMenu: {

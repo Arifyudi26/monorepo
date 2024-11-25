@@ -1,9 +1,9 @@
-import type { ChildrenType, Direction } from "@core/types";
-import { VerticalNavProvider } from "@menu/contexts/verticalNavContext";
-import { SettingsProvider } from "@core/contexts/settingsContext";
+import type { ChildrenType, Direction } from "@repo/ui/src/@core/types";
+import { VerticalNavProvider } from "@repo/ui/src/@menu/contexts/verticalNavContext";
+import { SettingsProvider } from "@repo/ui/src/@core/contexts/settingsContext";
 import { ThemeProvider } from "@repo/ui";
 
-import { getMode, getSettingsFromCookie } from "@core/utils/serverHelpers";
+import { getMode, getSettingsFromCookie } from "@repo/ui/src/@core/utils/serverHelpers";
 
 type Props = ChildrenType & {
   direction: Direction;
