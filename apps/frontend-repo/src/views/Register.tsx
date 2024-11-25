@@ -4,8 +4,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-import Logo from '@monorepo/shared/components/layout/shared/Logo'
-import Illustrations from '@monorepo/shared/components/Illustrations'
+import Logo from '@repo/ui/components/layout/shared/Logo'
+import Illustrations from '@repo/ui/components/Illustrations'
 
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'

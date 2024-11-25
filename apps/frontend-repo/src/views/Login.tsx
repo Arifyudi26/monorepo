@@ -20,8 +20,8 @@ import Divider from '@mui/material/Divider'
 
 import { useDispatch, useSelector } from 'react-redux'
 
-import Logo from '@monorepo/shared/components/layout/shared/Logo'
-import Illustrations from '@monorepo/shared/components/Illustrations'
+import Logo from '@repo/ui/src/components/layout/shared/Logo'
+import Illustrations from '@repo/ui/src/components/Illustrations'
 
 import { useImageVariant } from '@core/hooks/useImageVariant'
 

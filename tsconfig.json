@@ -7,12 +7,10 @@
       "@store/*": ["apps/frontend-repo/store/*"],
       "@views/*": ["apps/frontend-repo/src/views/*"],
       "@configs/*": ["apps/frontend-repo/src/configs/*"],
-      "@core/*": ["packages/shared/@core/*"],
-      "@menu/*": ["packages/shared/@menu/*"],
-      "@layouts/*": ["packages/shared/@layouts/*"],
-      "@assets/*": ["packages/shared/assets/*"],
-      "@monorepo/shared/*": ["packages/shared/*"]
-      // "@components/*": ["apps/frontend-repo/src/components/*"]
+      "@core/*": ["packages/ui/src/@core/*"],
+      "@menu/*": ["packages/ui/src/@menu/*"],
+      "@layouts/*": ["packages/ui/src/@layouts/*"],
+      "@assets/*": ["packages/ui/src/assets/*"]
     },
     "strict": true,
     "esModuleInterop": true,

@@ -1,4 +1,4 @@
-import { Providers } from '@monorepo/shared/'
+import { Providers } from '@repo/ui/'
 
 import type { ChildrenType } from '@core/types'
 import BlankLayout from '@layouts/BlankLayout'

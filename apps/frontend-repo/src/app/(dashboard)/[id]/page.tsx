@@ -20,7 +20,7 @@ import FormControl from '@mui/material/FormControl'
 import { useSelector, useDispatch } from 'react-redux'
 import { useFormik } from 'formik'
 
-import Form from '@monorepo/shared/components/Form'
+import Form from '@repo/ui/src/components/Form'
 
 import { fetchUserDetail, updateUserDetail } from '@store/slices/userSlice'
 

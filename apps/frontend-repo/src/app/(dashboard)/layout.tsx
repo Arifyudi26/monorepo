@@ -1,4 +1,4 @@
-import { Navigation, Navbar, VerticalFooter, Providers } from '@monorepo/shared'
+import { Navigation, Navbar, VerticalFooter, Providers } from '@repo/ui'
 
 import type { ChildrenType } from '@core/types'
 import LayoutWrapper from '@layouts/LayoutWrapper'

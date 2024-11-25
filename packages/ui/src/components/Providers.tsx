@@ -1,7 +1,7 @@
 import type { ChildrenType, Direction } from "@core/types";
 import { VerticalNavProvider } from "@menu/contexts/verticalNavContext";
 import { SettingsProvider } from "@core/contexts/settingsContext";
-import { ThemeProvider } from "@monorepo/shared";
+import { ThemeProvider } from "@repo/ui";
 
 import { getMode, getSettingsFromCookie } from "@core/utils/serverHelpers";
 

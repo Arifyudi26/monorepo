@@ -3,8 +3,7 @@ import classnames from 'classnames'
 
 import NavToggle from './NavToggle'
 
-import ModeDropdown from '@components/layout/shared/ModeDropdown'
-import UserDropdown from '@components/layout/shared/UserDropdown'
+import { ModeDropdown, UserDropdown } from '@repo/ui';
 
 import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
 

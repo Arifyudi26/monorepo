@@ -1,4 +1,4 @@
-import { Providers } from '@monorepo/shared'
+import { Providers } from '@repo/ui'
 
 import BlankLayout from '@layouts/BlankLayout'
 import NotFound from '@views/NotFound'

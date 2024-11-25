@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
-import Illustrations from '@monorepo/shared/components/Illustrations'
+import Illustrations from '@repo/ui/src/components/Illustrations'
 
 import { useImageVariant } from '@core/hooks/useImageVariant'
 import type { Mode } from '@core/types'
