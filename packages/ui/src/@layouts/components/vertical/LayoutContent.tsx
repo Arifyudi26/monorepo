@@ -4,9 +4,9 @@ import classnames from 'classnames'
 
 import type { ChildrenType } from '@repo/ui'
 
-import { verticalLayoutClasses } from '@repo/ui/src/@layouts/utils/layoutClasses'
+import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
 
-import StyledMain from '@repo/ui/src/@layouts/styles/shared/StyledMain'
+import StyledMain from '@layouts/styles/shared/StyledMain'
 
 const LayoutContent = ({ children }: ChildrenType) => {
   return (

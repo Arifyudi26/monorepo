@@ -9,7 +9,7 @@ import Illustrations from '@repo/ui/src/components/Illustrations'
 
 import type { Mode } from '@repo/ui'
 
-import { useImageVariant } from '@repo/ui/src/@core/hooks/useImageVariant'
+import { useImageVariant } from '@core/hooks/useImageVariant'
 
 const UnderMaintenance = ({ mode }: { mode: Mode }) => {
   const darkImg = '/images/pages/misc-mask-dark.png'

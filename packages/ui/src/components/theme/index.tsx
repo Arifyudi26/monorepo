@@ -18,8 +18,8 @@ import type { ChildrenType, Direction } from '@repo/ui'
 import ModeChanger from './ModeChanger'
 import themeConfig from '@configs/themeConfig'
 import primaryColorConfig from '@configs/primaryColorConfig'
-import { useSettings } from '@repo/ui/src/@core/hooks/useSettings'
-import defaultCoreTheme from '@repo/ui/src/@core/theme'
+import { useSettings } from '@core/hooks/useSettings'
+import defaultCoreTheme from '@core/theme'
 
 type Props = ChildrenType & {
   direction: Direction

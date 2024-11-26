@@ -1,4 +1,4 @@
-import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
+import { getServerMode } from '@core/utils/serverHelpers'
 
 import UnderMaintenance from '@views/pages/misc/UnderMaintenance'
 

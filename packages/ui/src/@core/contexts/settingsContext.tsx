@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
 'use client'
 
 import type { ReactNode } from 'react'
@@ -8,7 +8,7 @@ import type { Mode } from '@repo/ui'
 
 import themeConfig from '@configs/themeConfig'
 
-import { useObjectCookie } from '@repo/ui/src/@core/hooks/useObjectCookie'
+import { useObjectCookie } from '@core/hooks/useObjectCookie'
 
 export type Settings = {
   mode?: Mode
