@@ -1,8 +1,8 @@
 import { Providers } from '@repo/ui'
 
-import BlankLayout from '@repo/ui/src/@layouts/BlankLayout'
+import BlankLayout from '@layouts/BlankLayout'
 
-import { getServerMode } from '@repo/ui/src/@core/utils/serverHelpers'
+import { getServerMode } from '@core/utils/serverHelpers'
 
 import NotFound from '@views/NotFound'
 

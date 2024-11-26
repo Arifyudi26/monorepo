@@ -1,8 +1,8 @@
 import { Navigation, Navbar, VerticalFooter, Providers } from '@repo/ui'
 
 import type { ChildrenType } from '@repo/ui'
-import LayoutWrapper from '@repo/ui/src/@layouts/LayoutWrapper'
-import VerticalLayout from '@repo/ui/src/@layouts/VerticalLayout'
+import LayoutWrapper from '@layouts/LayoutWrapper'
+import VerticalLayout from '@layouts/VerticalLayout'
 
 const Layout = async ({ children }: ChildrenType) => {
   const direction = 'ltr'

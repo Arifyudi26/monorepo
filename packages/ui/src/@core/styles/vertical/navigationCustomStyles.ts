@@ -1,6 +1,6 @@
 import type { Theme } from '@mui/material/styles'
 
-import { menuClasses, verticalNavClasses } from '@repo/ui/src/@menu/utils/menuClasses'
+import { menuClasses, verticalNavClasses } from '@menu/utils/menuClasses'
 
 const navigationCustomStyles = (theme: Theme) => {
   return {

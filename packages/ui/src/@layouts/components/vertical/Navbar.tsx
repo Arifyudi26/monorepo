@@ -5,9 +5,9 @@ import type { CSSObject } from '@emotion/styled'
 
 import type { ChildrenType } from '@repo/ui'
 
-import { verticalLayoutClasses } from '@repo/ui/src/@layouts/utils/layoutClasses'
+import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
 
-import StyledHeader from '@repo/ui/src/@layouts/styles/vertical/StyledHeader'
+import StyledHeader from '@layouts/styles/vertical/StyledHeader'
 
 type Props = ChildrenType & {
   overrideStyles?: CSSObject

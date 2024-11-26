@@ -7,7 +7,10 @@
       "@store/*": ["apps/frontend-repo/store/*"],
       "@views/*": ["apps/frontend-repo/src/views/*"],
       "@configs/*": ["apps/frontend-repo/src/configs/*"],
-      "@assets/*": ["apps/frontend-repo/src/assets/*"]
+      "@assets/*": ["apps/frontend-repo/src/assets/*"],
+      "@core/*": ["packages/ui/src/@core/*"],
+      "@menu/*": ["packages/ui/src/@menu/*"],
+      "@layouts/*": ["packages/ui/src/@layouts/*"]
     },
     "strict": true,
     "esModuleInterop": true,

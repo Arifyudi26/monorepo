@@ -1,8 +1,8 @@
 import type { Theme } from "@mui/material/styles";
 
-import type { MenuProps } from "@repo/ui/src/@menu/vertical-menu";
+import type { MenuProps } from "@menu/vertical-menu";
 
-import { menuClasses } from "@repo/ui/src/@menu/utils/menuClasses";
+import { menuClasses } from "@menu/utils/menuClasses";
 
 const menuSectionStyles = (theme: Theme): MenuProps["menuSectionStyles"] => {
   return {
