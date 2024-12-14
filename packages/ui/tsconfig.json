@@ -1,0 +1,10 @@
+{
+  // "extends": "@repo/typescript-config/react-library.json",
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
